@@ -13,6 +13,9 @@ draw.io
 edge
 chrome
 oci-cli
+aws cli
+azure cli
+gcp cli
 terraform
 kubectl
 docker cli
