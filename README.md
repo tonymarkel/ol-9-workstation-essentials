@@ -29,3 +29,4 @@ zoom
 libreoffice
 slack
 oracle instant client
+gnome extensions
