@@ -1,4 +1,5 @@
-# ol-9-workstation-essentials
+# Cloud-Native Workstation Essentials
+
 My personal list of repos, packages, and other knick-knacks for setting up Oracle Linux 9 on a Workstation or Laptop. Includes a handy-dandy chooser for which packages you'd like to use. If there's a package you'd like to add, please feel free to ask or submit a PR. 
 
 NOTE FOR ORACLE EMPLOYEES: This can be used in addition to OL-9 on a verified compliant compute device. It does not replace or conflict with that configuration.
