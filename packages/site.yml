@@ -1,0 +1,28 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Default Repositories
+      become: true
+      become_user: root
+      dnf:
+        state: present
+        name:
+         - oraclelinux-developer-release-el9
+         - oracle-epel-release-el9
+         - "https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-{{ oracle_version.stdout }}.noarch.rpm"
+         - "https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-{{ oracle_version.stdout }}.noarch.rpm"
+         - 
+
+
+---
+- name: Download package
+  get_url:
+    url: "https://api.github.com/repos/jgraph/drawio-desktop/releases/latest | grep browser_download_url | grep '\.rpm' | cut -d '"' -f 4 | wget -i -"
+    dest: "/tmp/ol9-we-drawio.rpm"
+    mode: 0644
+
+- name: Install package
+  become: true
+  become_user: root
+  dnf:
+    name: "/tmp/ol9-we-drawio.rpm"
