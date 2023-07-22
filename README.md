@@ -19,11 +19,13 @@
  |______|___/___/\___|_| |_|\__|_|\__,_|_|___/                     
                                                 
 ```
-My personal list of repos, packages, and other knick-knacks for setting up Oracle Linux 9 on a Workstation or Laptop. Includes a handy-dandy chooser for which packages you'd like to use. If there's a package you'd like to add, please feel free to ask or submit a PR. 
+My personal list of repos, packages, and other knick-knacks for setting up Oracle Linux 9 on a Workstation or Laptop. 
 
-NOTE FOR ORACLE EMPLOYEES: This can be used in addition to OL-9 on a verified compliant compute device. It does not replace or conflict with that configuration.
+> NOTE: Includes the installation of proprietary and non-free software. This assumes that you have already purchased licesenses through the purchase of a computer or by other means.
 
-To use:
+> NOTE FOR ORACLE EMPLOYEES: This can be used in addition to OL-9 on a verified compliant compute device.
+
+## To use:
 ```
 git clone https://github.com/tonymarkel/ol-9-workstation-essentials.git
 cd ol-9-workstation-essentials
