@@ -1,7 +1,8 @@
 #!/usr/bin/bash
 # OL9 Workstation Essentials
-# scripts/bootstrap.sh
-# Purpose: Ensures Ansible is installed
+# File: setup.sh
+# Purpose: Ensures Ansible is installed and invokes the playbook
+
 oracle-release = "release 9"
 
 # Ensure running as root user
