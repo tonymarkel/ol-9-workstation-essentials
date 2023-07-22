@@ -23,29 +23,51 @@ My personal list of repos, packages, and other knick-knacks for setting up Oracl
 
 NOTE FOR ORACLE EMPLOYEES: This can be used in addition to OL-9 on a verified compliant compute device. It does not replace or conflict with that configuration.
 
-non-free codecs
-epel
-developer packages
-kernel development
-vscode
-virtualbox
-draw.io
-edge
-chrome
-oci-cli
-aws cli
-azure cli
-gcp cli
-terraform
-kubectl
-docker cli
-k3s
-Rancher
-powershell
-zsh (and switch in /etc/passwd)
-oh my zsh
-zoom
-libreoffice
-slack
-oracle instant client
-gnome extensions
+To use:
+```
+git clone https://github.com/tonymarkel/ol-9-workstation-essentials.git
+cd ol-9-workstation-essentials
+chmod a+x setup.sh
+./setup.sh
+```
+
+# Repositories
+* Oracle Developer
+* Linux Kernel Development
+* RPM Fusion free & non-free 
+* EPEL
+* Microsoft
+* Google
+* AWS
+* Oracle VirtualBox
+
+# Software
+
+## Productivity
+* edge
+* chrome
+* libreoffice
+* virtualbox
+* draw.io
+* zoom
+* slack
+* git
+* vscode
+
+## Cloud Administration
+* oracle instant client
+* kernel development
+* docker-cli
+* ansible-core
+* terraform
+* kubectl
+* Rancher
+* powershell
+* zsh (and switch in /etc/passwd)
+** oh my zsh
+* oci-cli
+* aws cli
+* azure cli
+* gcp cli
+
+
