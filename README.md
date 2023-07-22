@@ -53,6 +53,9 @@ chmod a+x setup.sh
 * slack
 * git
 * vscode
+* powershell
+* zsh (and switch in /etc/passwd)
+    * oh my zsh
 
 ## Cloud Administration
 * oracle instant client
@@ -62,9 +65,6 @@ chmod a+x setup.sh
 * terraform
 * kubectl
 * Rancher
-* powershell
-* zsh (and switch in /etc/passwd)
-** oh my zsh
 * oci-cli
 * aws cli
 * azure cli
