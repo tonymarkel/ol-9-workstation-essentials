@@ -40,4 +40,4 @@ dnf config-manager --enable ol9_appstream -y
 dnf install -y ansible-core
 
 # Run the ansible playbook
-ansible-playbook setup/site.yml
+ansible-playbook -i localhost, -c local -K ./site.yml --diff --skip-tags reboot $@

@@ -21,9 +21,9 @@
 ```
 My personal list of repos, packages, and other knick-knacks for setting up Oracle Linux 9 on a Workstation or Laptop. 
 
-> NOTE: Includes the installation of proprietary and non-free software. This assumes that you have already purchased licesenses through the purchase of a computer or by other means.
+> NOTE: Includes the installation of proprietary and non-free software.
 
-> NOTE FOR ORACLE EMPLOYEES: This can be used in addition to OL-9 on a verified compliant compute device.
+> NOTE FOR ORACLE EMPLOYEES: This can be used on a verified compliant compute device.
 
 ## To use:
 ```
